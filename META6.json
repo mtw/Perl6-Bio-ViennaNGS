@@ -6,7 +6,7 @@
     "depends"      : [ ],
     "test-depends" : [ "Test" ],
     "provides"     : {
-        "Bio::ViennaNGS::GenomicIntervals": "lib/Bio/ViennaNGS/GenomicIntervals.pm6",
+        "Bio::ViennaNGS::GenomicIntervals": "lib/Bio/ViennaNGS/GenomicIntervals.pm6"
     },
     "authors"      : [ "Michael T. Wolfinger" ],
     "support"      : { "source"   : "git://github.com/mtw/Perl6-Bio-ViennaNGS.git" }
