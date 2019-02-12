@@ -6,7 +6,7 @@ subset StrPlusOrMinus of Str where {
     or warn 'subtype StrPlusOrMinus must be one of \'+\',\'-\',\'.\''
   };
 
-class Bio::ViennaNGS6::FeatureInterval{
+class Bio::ViennaNGS::FeatureInterval{
   has Str $.chromosome is rw is required;
   has Int $.start is rw is required where {$^num >= 0};
   has Int $.end is rw is required where {$^num >= 0};
@@ -20,12 +20,11 @@ class Bio::ViennaNGS6::FeatureInterval{
     $!length = self.compute_length();
   }
 }
-class Bio::ViennaNGS6::MinimalFeature is Bio::ViennaNGS6::FeatureInterval {
+class Bio::ViennaNGS::MinimalFeature is Bio::ViennaNGS::FeatureInterval {
   has StrPlusOrMinus $.strand is rw is default('.');
 }
 
-class Bio::ViennaNGS6::Feature is Bio::ViennaNGS6::MinimalFeature {
+class Bio::ViennaNGS::Feature is Bio::ViennaNGS::MinimalFeature {
   has Str $.name is rw is required;
   has Int $.score is rw is default(0);
 }
-
