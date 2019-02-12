@@ -1,0 +1,14 @@
+{
+    "perl"         : "6.c",
+    "name"         : "Bio::ViennaNGS",
+    "version"      : "0.0.1",
+    "description"  : "A port of Bio::ViennaNGS to Perl6",
+    "depends"      : [ ],
+    "test-depends" : [ "Test" ],
+    "provides"     : {
+        "Bio::ViennaNGS::GenomicIntervals": "lib/Bio/ViennaNGS/GenomicIntervals.pm6",
+        "Bio::ViennaNGS::BedGraphEntry": "lib/Bio/ViennaNGS/BedGraphEntry.pm6"
+    },
+    "authors"      : [ "Michael T. Wolfinger" ],
+    "support"      : { "source"   : "git://github.com/mtw/Perl6-Bio-ViennaNGS.git" }
+}
