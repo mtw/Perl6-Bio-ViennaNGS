@@ -10,4 +10,6 @@
     },
     "authors"      : [ "Michael T. Wolfinger" ],
     "support"      : { "source"   : "git://github.com/mtw/Perl6-Bio-ViennaNGS.git" }
+    "source-type"  : "git",
+    "source-url"   : "git://github.com/mtw/Perl6-Bio-ViennaNGS.git"
 }
