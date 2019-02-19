@@ -9,7 +9,7 @@
         "Bio::ViennaNGS::GenomicIntervals": "lib/Bio/ViennaNGS/GenomicIntervals.pm6"
     },
     "authors"      : [ "Michael T. Wolfinger" ],
-    "support"      : { "source"   : "git://github.com/mtw/Perl6-Bio-ViennaNGS.git" }
-    "source-type"  : "git",
+    "support"      : { "source"   : "git://github.com/mtw/Perl6-Bio-ViennaNGS.git" },
+    "source-typeA"  : "git",
     "source-url"   : "git://github.com/mtw/Perl6-Bio-ViennaNGS.git"
 }
